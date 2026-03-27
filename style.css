@@ -1,0 +1,167 @@
+body {
+    font-family: "Montserrat", sans-serif;
+    padding: 4px;
+}
+
+h2 {
+    border: 2px solid olivedrab;
+    border-radius: 25px;
+    padding: 7px 13px;
+}
+
+.slider {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: grey;
+    opacity: 1;
+    font-weight: 400;
+    height: 3rem;
+    padding: 5px;
+    width: 80vw;
+    border-radius: 1.2rem;
+    text-align: center;
+}
+
+#char {
+    color: olivedrab;
+}
+
+.opt {
+    display: inline;
+    padding: 15px 24px 15px 24px;
+    color: white;
+    border-radius: 0.8rem;
+}
+
+.opt2 {
+    display: inline;
+    padding: 15px 24px 15px 24px;
+    color: white;
+    border-radius: 0.8rem;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.opt:hover{
+    background-color: black;
+}
+.opt2:hover{
+    background-color: black;
+}
+textarea {
+    border: 1.5px solid olivedrab;
+    border-radius: 1.2rem;
+    padding: 15px;
+    margin-top: 35px;
+}
+
+button {
+    padding: 10px 10px;
+    width: 100%;
+    background-color: olivedrab;
+    color: white;
+    border: none;
+    border-radius: 0.5rem;
+    margin-top: 10px;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+
+button:hover {
+box-shadow: 5px 5px 10px 1px black;
+}
+
+.footer {
+    height: 4rem;
+    width: 100%;
+    background-color: olivedrab;
+    position: fixed;
+    bottom: 0;
+    text-align: center;
+}
+
+.create {
+    background-color: black;
+}
+
+.notes-container {
+    margin-bottom: 45px ;
+}
+
+@media(min-width: 768px) {
+    textarea {
+        width: 80vw;
+        height: 30vh;
+        margin-top: 5px;
+    }
+
+    .slider {
+        width: 80vw;
+    }
+
+    .opt2 {
+         margin: 0rem 2rem 0rem 2rem;
+         padding: 10px 30px 15px 30px;
+    }
+    .opt {
+         padding: 10px 30px 15px 30px;
+    }
+    button {
+         padding: 10px 10px;
+         font-size: 1rem;
+         border-radius: 0.7rem;
+         margin-top:5px ;
+    }
+}
+
+@media(max-width: 400px) {
+    textarea {
+        width: 65vw;
+        height: 20vh;
+    }
+    .opt {
+        padding: 7px 15px 7px 15px;
+    }
+    .opt2 {
+        padding: 7px 15px 7px 15px;
+    }
+    .slider {
+        width: 80vw;
+        height: 2rem;
+    }
+}
+
+@media(min-width: 1000px) {
+    .slider {
+        width: 45vw;
+        height: 2.4rem;
+        padding: 7px 30px;
+    }
+    .opt {
+        padding: 10px 30px 10px 30px;
+    }
+    .opt2 {
+        padding: 10px 30px 10px 30px;
+    }
+}
+
+@media(min-width: 500px) {
+    .slider {
+        width: 50vw;
+        height: 2.4rem;
+        padding: 7px 30px;
+    }
+    textarea {
+        width: 60vw;
+        height: 25vh;
+    }
+}
+
+  
+ 
+
