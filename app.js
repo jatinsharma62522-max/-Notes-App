@@ -30,7 +30,7 @@ form.addEventListener("submit", (event) => {
     count++;
     noteTotal.innerText = count;
   }
-});
+}); 
 
 notesOpt.addEventListener("click", () => {
   notesOpt.style.backgroundColor = "black";
@@ -61,65 +61,6 @@ createOpt.addEventListener("click", () => {
   notesContainer.style.display = "none";
 });
 
-// let container  =  document.querySelector(".container");
-// let slider  =  document.querySelector(".slider");
-// let createOpt = document.querySelector(".create");
-// let notesOpt = document.querySelector(".notes");
-// let historyOpt = document.querySelector(".history");
-// let form  =  document.querySelector(".form");
-// let textarea =  document.querySelector(".text");
-// let btn =  document.querySelector(".btn");
-// let noteTotal =  document.querySelector(".total");
-// let notesContainer = document.querySelector(".notes-container");
-
-//  let count = 0;
-// let warn = document.createElement("h3");
-
-
-// form.addEventListener("submit", (event) => {
-
-//   if(textarea.value === "") {
-//     event.preventDefault()
-//     warn.innerText = "Please Type Something To Submit !";
-//     warn.style.color = "red";
-//     form.appendChild(warn);
-//   } else {
-//      count++;
-//     noteTotal.innerText = count;
-
-//     event.preventDefault()
-//      warn.innerText = "";
-//     let note = textarea.value;
-//     textarea.value = "";
-
-//     notesOpt.addEventListener("click" , () => {
-
-//     notesOpt.style.backgroundColor = "black";
-//     createOpt.style.backgroundColor = "grey";
-//     textarea.style.display = "none";
-//     btn.style.display = "none";
-//     let p = document.createElement("p");
-//     let line = document.createElement("hr");
-//     p.innerHTML = "<b>#</b> " + note;
-//     notesContainer.appendChild(p);
-//     p.appendChild(line);
-
-
-//     createOpt.addEventListener("click", () => {
-      
-//    notesOpt.style.backgroundColor = "grey";
-//     createOpt.style.backgroundColor = "black";
-//     p.style.display = "none";
-//     textarea.style.display = "inline-block";
-//     btn.style.display = "inline-block";
-
-
-//     })
-
-//   });
-//   }
-
-// })
 
 
 
